@@ -137,19 +137,19 @@
   </style>
 </head>
 <body>
-  <div class="startup">InfoKrazys Projects</div>
+  <div class="startup">InfoKrazy's Projects</div>
 
-  <button class="theme-toggle" id="themeBtn">Switch Theme</button>
+  <button class="theme-toggle" id="themeBtn">Toggle Theme</button>
 
   <div class="wrap">
-    <section class="grid" id="InfoKrazy"></section>
+    <section class="grid" id="projects"></section>
   </div>
 
   <script>
     const projects = [
-      { title: "In Progress Project", url: "https://github.com/InfoKrazy/in-progress", desc: "A short note about what I'm building." },
-      { title: "Tweaks & Polishing", url: "https://github.com/InfoKrazy/refining", desc: "Small improvements, docs, and tests." },
-      { title: "Released Project", url: "https://github.com/InfoKrazy/released", desc: "A project that's finished and available." }
+      { title: "In-Progress Project", url: "https://github.com/yourusername/in-progress", desc: "A short note about what I'm building." },
+      { title: "Tweaks & Polishing", url: "https://github.com/yourusername/refining", desc: "Small improvements, docs, and tests." },
+      { title: "Released Project", url: "https://github.com/yourusername/released", desc: "A project that's finished and available." }
     ];
 
     const container = document.getElementById('projects');
